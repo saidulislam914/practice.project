@@ -1,0 +1,220 @@
+/* defold css */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+img{
+    max-width: 100%;
+}
+
+.fix-width{
+    width: 1270px;
+    margin: auto;
+}
+
+/* header css */
+.header{
+   background-color: #7f8c8d;
+}
+
+.header-left{
+    float: left;
+    width: 30%;
+}
+
+.header-left img{
+    width: 150px;
+    height: auto;
+}
+
+.header-right{
+    float: right;
+    width: 70%;
+}
+
+.header-right ul{
+   text-align: right; 
+    
+}
+
+.header-right ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+.header-right ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 0 30px;
+    line-height: 50px;
+}
+
+.header-right ul li a:hover{
+    color: #bdc3c7;
+    transition: .3s;
+}
+
+/* banner css */
+.banner{
+    background-image: url(img/tutorial-computer-900x288.jpg);
+    padding: 200px 0;
+    background-size: cover;
+}
+
+.banner-caption{
+    text-align: center;
+    
+}
+
+.banner-caption h1{
+    background-color: rgba(0, 0, 0, .5);
+    color: aqua;
+    display: inline-block;
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 10%;
+}
+.banner-caption p{
+    width: 700px;
+    height: auto;
+    margin: auto;
+    color: white;
+    background-color: rgba(80, 108, 116, 0.5);
+    line-height: 25px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* about section */
+.about-section{
+    margin-top: 40px;
+    text-align: center;
+    
+}
+
+.about-section h1{
+    font-size: 35px;
+    line-height: 60px;
+}
+
+.about-section p{
+    width: 850px;
+    height: auto;
+    margin: auto;
+}
+
+/* servises css */
+.servise{
+   text-align: center;
+   margin-top: 50px; 
+   
+}
+
+.servise h2{
+    line-height: 50px;
+    
+}
+
+.servise-item{
+    float: left;
+    width: 31.3%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.servise-item span{
+    font-size: 30px;
+}
+
+.servise-item h2{
+    font-size: 30px;
+}
+
+/* content css */
+.content{
+    margin-top: 40px;
+    margin: 30px 0;
+}
+
+.content-left{
+    float: left;
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+.content-left img{
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.content-right{
+    float: right;
+    width: 25%;
+}
+
+.content-right{
+   
+}
+
+.content-right h2{
+    font-size: 32px;
+    border-bottom: 1px solid black;
+    padding-bottom: 6px;
+}
+
+.content-right ul{
+    list-style: none;
+}
+
+.content-right ul li{
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+/* footer css */
+
+.footer{
+    background-color: #7f8c8d;
+    padding: 30px;
+}
+
+.footer-left{
+    float: left;
+    width: 40%;
+    color: white;
+}
+
+.footer-left p{}
+
+.footer-right{
+    float: left;
+    width: 60%;
+}
+
+.sotial-icon{
+    text-align: right;
+   
+}
+
+.sotial-icon li{
+    display: inline-block;
+} 
+
+.sotial-icon li a{
+   color: white;
+}
